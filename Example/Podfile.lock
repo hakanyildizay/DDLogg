@@ -1,0 +1,27 @@
+PODS:
+  - DatadogSDK (1.14.0)
+  - DatadogSDKObjc (1.14.0):
+    - DatadogSDK (= 1.14.0)
+  - DDLogg (0.1.0):
+    - DatadogSDKObjc (~> 1.14)
+
+DEPENDENCIES:
+  - DDLogg (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - DatadogSDK
+    - DatadogSDKObjc
+
+EXTERNAL SOURCES:
+  DDLogg:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DatadogSDK: 78af0e8967f505643352cdc10c3e3da6ba17a19d
+  DatadogSDKObjc: 7edd09c1c785230bba770dc96c2856037fbb1431
+  DDLogg: 7bc74982eb21b2a94e7dcf9c26329c8f070de0ad
+
+PODFILE CHECKSUM: d3c00d21163d53b868103533386b7c2daacf1dcf
+
+COCOAPODS: 1.11.3
