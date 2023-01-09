@@ -24,8 +24,8 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Aneesh/DDLogg'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Aneesh' => 'aneeshg@lestshego.com' }
-  s.source           = { :git => 'https://github.com/Aneesh/DDLogg.git', :tag => s.version.to_s }
+  s.author           = { 'aneeshzed' => 'aneesh2405@gmail.com' }
+  s.source           = { :git => 'https://github.com/aneeshzed/DDLogg.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_version      = '5.1'
