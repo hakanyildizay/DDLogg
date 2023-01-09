@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DDLogg'
+  s.module_name      = "DDLogg"
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DDLogg.'
+  s.summary          = 'A short description of DDLogg.This Frame work is used for act as bridge between Kotlin muliplatform library and Datadog frameworks for Data logging'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +18,8 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'A short description of DDLogg.This Frame work is used for act as bridge between Kotlin muliplatform library and Datadog frameworks for Data logging'
+
 
   s.homepage         = 'https://github.com/aneeshzed/DDLogg'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
