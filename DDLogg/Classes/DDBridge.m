@@ -1,9 +1,14 @@
-#import <UIKit/UIKit.h>
+//
+//  DDBridge.m
+//  DatadogSDK
+//
+//  Created by Aneesh on 10/01/23.
+//
+
+
+#import "DDBridge.h"
 @import DatadogObjc;
 
-@interface DDBridge:NSObject
--(void)logToRemote:(NSString*)message with:(NSDictionary*)attributes;
-@end
 @implementation DDBridge
 -(void)logToRemote:(NSString*)message with:(NSDictionary*)attributes{
     NSLog(@"logToRemote called");

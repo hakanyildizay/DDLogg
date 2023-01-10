@@ -48,7 +48,6 @@
 		27B32657EADB792FB18920C917B91F42 /* UIKitRUMViewsPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47E16999FDBAD6C93744E41DE29880 /* UIKitRUMViewsPredicate.swift */; };
 		296ADDD3270D06049A793EE2BB5C981E /* FeaturesConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8539B2DF40A9AF33E6875A805229FF /* FeaturesConfiguration.swift */; };
 		29755C598CD42E47E365246D0C2911FF /* DataUploadStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AE9A57BB403807210171FC7A81FACA /* DataUploadStatus.swift */; };
-		2AC32CF45EA32796FC4E17E34D591A98 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBF5043B3C4D0F186B069CA732D964 /* ReplaceMe.m */; };
 		2BA2ACA3AEE9E19C557F229E760A05D2 /* SpanSanitizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB51C0CBA763E06AD5BCB41AEC06D79B /* SpanSanitizer.swift */; };
 		2EED0DDA787942DBC0101F9E83E12128 /* ArbitraryDataWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B844315012CD6279383AF698EB4A28 /* ArbitraryDataWriter.swift */; };
 		30F972A0B4915DA86A4742A85E4AE2F2 /* UIKitRUMUserActionsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB85F5D9EAD7BA0F7E33FFF2A712BD5 /* UIKitRUMUserActionsHandler.swift */; };
@@ -333,7 +332,7 @@
 		00A91F5436B2251CF802078D3020488C /* SpanEventEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpanEventEncoder.swift; path = Sources/Datadog/Tracing/Span/SpanEventEncoder.swift; sourceTree = "<group>"; };
 		0235EEBD9D769C97E0363F7EF06392DF /* RUMUUID.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RUMUUID.swift; path = Sources/Datadog/RUM/UUIDs/RUMUUID.swift; sourceTree = "<group>"; };
 		042E7282B49132157E9A7BFDA4D04837 /* RUMSessionScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RUMSessionScope.swift; path = Sources/Datadog/RUM/RUMMonitor/Scopes/RUMSessionScope.swift; sourceTree = "<group>"; };
-		0448D7DB5DF7B4522F3DB8FCB579CC37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0448D7DB5DF7B4522F3DB8FCB579CC37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04FECA18A560520EB042F14C7AF063A9 /* DatadogSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatadogSDK-umbrella.h"; sourceTree = "<group>"; };
 		0676CA20AED8704A24CF623466D7038F /* Casting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Casting.swift; path = Sources/DatadogObjc/Tracing/Utils/Casting.swift; sourceTree = "<group>"; };
 		076B8F00234BD50F7B94075669559A00 /* InternalLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalLogger.swift; path = Sources/Datadog/Core/DD/InternalLogger.swift; sourceTree = "<group>"; };
@@ -398,7 +397,6 @@
 		3E21C4E0D4CFC9328ECDA31314756843 /* FeatureMessageReceiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeatureMessageReceiver.swift; path = Sources/Datadog/DatadogInternal/MessageBus/FeatureMessageReceiver.swift; sourceTree = "<group>"; };
 		3ED414F6D4844BD265DACDC55FCF5C5E /* Attributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attributes.swift; path = Sources/Datadog/Core/Attributes/Attributes.swift; sourceTree = "<group>"; };
 		3F4ECC238F5850FCF7082F6BDAA19C2B /* FeatureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeatureMessage.swift; path = Sources/Datadog/DatadogInternal/MessageBus/FeatureMessage.swift; sourceTree = "<group>"; };
-		3FFBF5043B3C4D0F186B069CA732D964 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DDLogg/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		4066BD265B6E09CD01730DCBFA2A7483 /* DatadogSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatadogSDK-prefix.pch"; sourceTree = "<group>"; };
 		4067575CD8F23FA4455A8EC467366D79 /* DatadogSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DatadogSDK.release.xcconfig; sourceTree = "<group>"; };
 		4165BE3723482F0BF3C8DEE1F1838FFA /* DDSpanContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDSpanContext.swift; path = Sources/Datadog/Tracing/DDSpanContext.swift; sourceTree = "<group>"; };
@@ -523,8 +521,8 @@
 		9C25CF62CF3225E0FBB8FA09FFDBD97D /* TracingHTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TracingHTTPHeaders.swift; path = Sources/Datadog/Tracing/Propagation/OpenTracing/TracingHTTPHeaders.swift; sourceTree = "<group>"; };
 		9C317E61E2579E7B0E6D676FEBC33E48 /* DatadogSDKObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DatadogSDKObjc.modulemap; sourceTree = "<group>"; };
 		9D07A8900D73509D5E0695BB8AE3BBAF /* SpanEventMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpanEventMapper.swift; path = Sources/Datadog/Tracing/Scrubbing/SpanEventMapper.swift; sourceTree = "<group>"; };
-		9D226909792C209BCA048E6E5F967E76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D226909792C209BCA048E6E5F967E76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E26B0364DDE2C7A5DE36134B37A0DDE /* TracingFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TracingFeature.swift; path = Sources/Datadog/Tracing/TracingFeature.swift; sourceTree = "<group>"; };
 		9FAEB7AC3B48355CA654CC2BF9F2348A /* DataReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataReader.swift; path = Sources/Datadog/DatadogCore/Storage/Reading/DataReader.swift; sourceTree = "<group>"; };
 		9FE9C844393CE3B9FC92833A420783F7 /* RUMDataModelsMapping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RUMDataModelsMapping.swift; path = Sources/Datadog/RUM/DataModels/RUMDataModelsMapping.swift; sourceTree = "<group>"; };
@@ -543,7 +541,7 @@
 		AACCE58D9618EFF38B20FC0C2A651809 /* VitalCPUReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VitalCPUReader.swift; path = Sources/Datadog/RUM/RUMVitals/VitalCPUReader.swift; sourceTree = "<group>"; };
 		AB9E38DE83D83E93C63DC948E3256972 /* Datadog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Datadog.h; path = Datadog/TargetSupport/Datadog/Datadog.h; sourceTree = "<group>"; };
 		AE0EE1C27C2A0B87DC56FF4227F95FAD /* VitalRefreshRateReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VitalRefreshRateReader.swift; path = Sources/Datadog/RUM/RUMVitals/VitalRefreshRateReader.swift; sourceTree = "<group>"; };
-		AE23CC283A6C9790A493C71DE2B5E832 /* DDLogg.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DDLogg.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE23CC283A6C9790A493C71DE2B5E832 /* DDLogg.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DDLogg.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B26070CBCEB64C907D6D80E1793B2916 /* TracingUUIDGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TracingUUIDGenerator.swift; path = Sources/Datadog/Tracing/UUIDs/TracingUUIDGenerator.swift; sourceTree = "<group>"; };
 		B3E052009D176CA54891D89E24C4EA33 /* Pods-DDLogg_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDLogg_Tests-Info.plist"; sourceTree = "<group>"; };
 		B4126F4EA5AB68664732EC4B09D88A06 /* DatadogCoreProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatadogCoreProtocol.swift; path = Sources/Datadog/DatadogInternal/DatadogCoreProtocol.swift; sourceTree = "<group>"; };
@@ -755,7 +753,6 @@
 				E9073E936E3202FC1C0365C67989C849 /* W3CHTTPHeadersWriter+objc.swift */,
 				06E3DF4D89652C1314D27550EBBFC15D /* Support Files */,
 			);
-			name = DatadogSDKObjc;
 			path = DatadogSDKObjc;
 			sourceTree = "<group>";
 		};
@@ -1049,7 +1046,6 @@
 				84D0D790AAAE14E648EAAF0001F14D9C /* Writer.swift */,
 				3D213A6992525FAD057C5E24EB4B3654 /* Support Files */,
 			);
-			name = DatadogSDK;
 			path = DatadogSDK;
 			sourceTree = "<group>";
 		};
@@ -1071,7 +1067,6 @@
 		9D2EE3E1CC0E076B3DF1B8A4EE4A2BF4 /* DDLogg */ = {
 			isa = PBXGroup;
 			children = (
-				3FFBF5043B3C4D0F186B069CA732D964 /* ReplaceMe.m */,
 				AFDBA6EC4FEFA9C552C3298272259E22 /* Pod */,
 				9292E2CC5BBEE310E3264713CA0994DD /* Support Files */,
 			);
@@ -1634,7 +1629,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				224DF399D487AEF0C33716330D819E89 /* DDLogg-dummy.m in Sources */,
-				2AC32CF45EA32796FC4E17E34D591A98 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1936,8 +1930,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
