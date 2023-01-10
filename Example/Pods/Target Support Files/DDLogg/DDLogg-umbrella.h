@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "DDBridge.h"
 
 FOUNDATION_EXPORT double DDLoggVersionNumber;
 FOUNDATION_EXPORT const unsigned char DDLoggVersionString[];

@@ -7,7 +7,5 @@ target 'DDLogg_Example' do
 
   target 'DDLogg_Tests' do
     inherit! :search_paths
-
-    
   end
 end
