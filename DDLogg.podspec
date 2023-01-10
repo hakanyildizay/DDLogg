@@ -33,12 +33,13 @@ Pod::Spec.new do |s|
   s.platform = :ios, '11.0'
 
   s.source_files = 'DDLogg/Classes/**/*'
+  s.public_header_files = 'DDLogg/Classes/**/*.h'
   
   # s.resource_bundles = {
   #   'DDLogg' => ['DDLogg/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+#   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'DatadogSDKObjc', '~> 1.14'
