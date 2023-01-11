@@ -20,10 +20,8 @@
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "DDLogg/Classes/**/*.{h,m,swift}",
-  "ios": {
-    "public_header_files": "DDLogg/Classes/**/*.h"
-  },
+  "source_files": "DDLogg/Classes/*.{h,m,swift}",
+  "public_header_files": "DDLogg/Classes/*.h",
   "dependencies": {
     "DatadogSDKObjc": [
       "~> 1.14"

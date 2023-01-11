@@ -19,7 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    DDBrid
+    DDBridge *log = [[DDBridge alloc]init];
+    NSDictionary *dic = [[NSDictionary alloc]init];
+    [log logToRemote: @"" with:dic];
 }
 
 - (void)didReceiveMemoryWarning
