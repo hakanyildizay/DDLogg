@@ -10,7 +10,7 @@
 @import DatadogObjc;
 
 @implementation DDBridge
--(void)logToRemote:(NSString*)message with:(NSDictionary<NSString*, id> *)attributes{
+-(void)logToRemote:(NSString*)message with:(id)attributes{
     NSLog(@"logToRemote called");
     NSLog(@"message = %@",message);
     NSLog(@"attributes = %@",attributes);
