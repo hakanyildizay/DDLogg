@@ -32,8 +32,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.platform = :ios, '11.0'
 
-  s.source_files = 'DDLogg/Classes/**/*.{h,m,swift}'
-  s.public_header_files = 'DDLogg/Classes/**/*.h'
+  s.source_files = 'DDLogg/Classes/*.{h,m,swift}'
+  s.public_header_files = 'DDLogg/Classes/*.h'
   
   # s.resource_bundles = {
   #   'DDLogg' => ['DDLogg/Assets/*.png']
