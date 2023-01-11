@@ -8,39 +8,22 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DDLogg'
-  s.module_name      = "DDLogg"
+  s.module_name      = "DDBridge"
   s.version          = '0.1.1'
   s.summary          = 'This Frame work is used for act as bridge for DataDog logger'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = 'This Frame work is used for act as bridge between Kotlin muliplatform library and Datadog frameworks for Data logging'
 
 
   s.homepage         = 'https://github.com/aneeshzed/DDLogg'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aneeshzed' => 'aneesh2405@gmail.com' }
   s.source           = { :git => 'https://github.com/aneeshzed/DDLogg.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_version      = '5.1'
   s.ios.deployment_target = '11.0'
   s.platform = :ios, '11.0'
 
-  s.source_files = 'DDLogg/Classes/*.{h,m,swift}'
-  s.public_header_files = 'DDLogg/Classes/*.h'
-  
-  # s.resource_bundles = {
-  #   'DDLogg' => ['DDLogg/Assets/*.png']
-  # }
-
-#   s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'DDLogg/Classes/**/*.{h,m,swift}'
+  s.public_header_files = 'DDLogg/Classes/**/*.h'
   s.dependency 'DatadogSDKObjc', '~> 1.14'
 end
