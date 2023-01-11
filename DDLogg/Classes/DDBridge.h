@@ -8,5 +8,5 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 @interface DDBridge:NSObject
--(void)logToRemote:(NSString*)message with:(NSDictionary*)attributes;
+-(void)logToRemote:(NSString*)message with:(NSDictionary<NSString*, id> *)attributes;
 @end
