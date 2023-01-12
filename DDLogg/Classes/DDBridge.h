@@ -9,4 +9,5 @@
 #import <Foundation/Foundation.h>
 @interface DDBridge:NSObject
 -(void)logToRemote:(NSString*)message with:(NSDictionary*)attributes;
+-(void)setDataDogUserInfo:(BOOL)isSetUp email:(NSString*)email customerId:(int)customerId;
 @end
