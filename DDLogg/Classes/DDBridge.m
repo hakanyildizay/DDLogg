@@ -35,18 +35,26 @@
  *
  * Note : Sending Null resets the customer ID as this means user has logged out.
  */
--(void)setDataDogUserInfo:(BOOL)isSetUp email:(NSString*)email customerId:(int)customerId{
+-(void)setDataDogUserInfo:(BOOL)isSetUp email:(NSString*)email customerId:(NSNumber*)customerId{
     if (isSetUp) {
-        [DDDatadog setUserInfoWithId:[NSString stringWithFormat:@"%d", customerId] name:@"" email:email extraInfo:@{}];
-        DDRUMMonitor *monitor = [[DDRUMMonitor alloc] init];
-        [monitor addAttributeForKey:@"usr.id" value:[NSString stringWithFormat:@"%d", customerId]];
-        [monitor addAttributeForKey:@"usr.email" value:email];
-        [DDGlobal setRum:monitor];
+        if (customerId != NULL){
+            NSString *customerNumber = [NSString stringWithFormat:@"%d", [customerId intValue]];
+            [DDDatadog setUserInfoWithId:customerNumber name:@"" email:email extraInfo:@{}];
+            DDRUMMonitor *monitor = [[DDRUMMonitor alloc] init];
+            [monitor addAttributeForKey:@"usr.id" value:customerNumber];
+            [monitor addAttributeForKey:@"usr.email" value:email];
+            [DDGlobal setRum:monitor];
+        }
     }else{
         [DDDatadog setUserInfoWithId:NULL name:NULL email:NULL extraInfo:@{}];
         [DDGlobal setRum:[[DDRUMMonitor alloc] init]];
     }
     
 }
+
+- (void) someMethod:(int)parameter {
+    NSLog(@"Some Value: %d",parameter);
+}
+
 
 @end
